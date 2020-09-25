@@ -1,0 +1,71 @@
+.Tasks{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.block{
+    margin-top: 40px;
+    width: 430px;
+    border-radius: 10px;
+    text-align: left;
+    /*border: 1px solid red;*/
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.25);
+    background-color: #f4f4f4;
+}
+
+.block:last-child{
+    margin-right: 0;
+}
+
+.header_block{
+    background-color: #0D1321;
+    color: #f4f4f4;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.5em;
+}
+
+.list{
+    padding: 0 0 20px 40px;
+}
+
+.topPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+    margin-top: 20px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+
+.dz p{
+    padding-left: 33px;
+}
+
+.for_btn{
+    position: sticky;
+    width: 70%;
+    margin: auto;
+}
+
+.add_task{
+    float: right;
+    background-color:  #0D1321;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: sticky;
+}
