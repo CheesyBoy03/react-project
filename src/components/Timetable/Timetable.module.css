@@ -25,6 +25,18 @@
     font-size: 2em;
 }
 
+@media(max-width: 450px){
+    .header_block {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 375px){
+    .header_block {
+        font-size: 1.5em;
+    }
+}
+
 .subjects{
     border-radius: 0 0 10px 10px;
     padding-left: 20px;

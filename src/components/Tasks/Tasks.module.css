@@ -55,17 +55,76 @@ img{
     padding-left: 33px;
 }
 
+
+/*  Кнопка для добавления новых заданий  */
 .for_btn{
-    position: sticky;
+    bottom: 30%;
+    right: 15%;
+    position: fixed;
     width: 70%;
     margin: auto;
 }
 
 .add_task{
+    position: absolute;
+    top: 150px;
+    left: 95%;
     float: right;
     background-color:  #0D1321;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.25);
 }
+
+.add_task:hover{
+    cursor: pointer;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.4),
+                -1px -2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.add {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    width: 40px;
+    height: 40px;
+}
+.add:before, .add:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 4px;
+    background-color: #fff;
+}
+.add:before {
+    transform: rotate(90deg);
+}
+.add:after {
+    transform: rotate(0deg);
+}
+/*  Кнопка для добавления новых заданий  */
+
+
+
+/*  Медиа файлы  */
+@media(max-width: 450px){
+    * {
+        font-size: 0.98em;
+    }
+    
+    .for_btn {
+        right: 20%;
+    }
+}
+
+@media(max-width: 350px){
+    .for_btn {
+        right: 35%;
+    }
+}
+/*  Медиа файлы  */

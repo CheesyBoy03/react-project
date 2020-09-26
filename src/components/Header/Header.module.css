@@ -9,10 +9,21 @@ a{
     padding-top: 3px;
 }
 
+.notActive{
+    padding-top: 0;
+}
+
 .active{
+    margin-top: 6px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #34AADC;
+
+    /*
+    text-decoration: underline;
     background-color: #34AADC;
     border-radius: 25px;
-    padding: 3px 9px 6px;
+    padding: 3px 9px;
+    */
 }
 
 .header{
@@ -34,8 +45,9 @@ a{
 }
 
 .logo{
+    font-size: 2em;
+    width: 100px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
 }
 
 .logo a{
@@ -50,10 +62,10 @@ a{
     justify-content: space-around;
 }
 
-ul{
-
+.nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .links{
