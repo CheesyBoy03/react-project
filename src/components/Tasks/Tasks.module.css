@@ -127,4 +127,10 @@ img{
         right: 35%;
     }
 }
+
+@media(min-width: 1920px){
+    .Tasks {
+        width: 1350px;
+    }
+}
 /*  Медиа файлы  */

@@ -57,3 +57,9 @@
         font-size: 1.5em;
     }
 }
+
+@media(min-width: 1920px){
+    .timetable_content {
+        width: 1350px;
+    }
+}

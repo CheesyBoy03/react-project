@@ -3,3 +3,9 @@
     margin: auto;
     text-align: left;
 }
+
+@media(min-width: 1920px){
+    .banner {
+        width: 1350px;
+    }
+}

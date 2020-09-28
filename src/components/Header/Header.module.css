@@ -82,3 +82,9 @@ a{
     background-color: #f4f4f4;
     border-radius: 50%;
 }
+
+@media(min-width: 1920px){
+    .header_content {
+        width: 1350px;
+    }
+}
