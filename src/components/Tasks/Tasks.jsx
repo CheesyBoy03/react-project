@@ -11,7 +11,6 @@ const Tasks = (props) => {
                 <Block className={style.item} name='Илья' lastname='Мельников' subject='Информатика' day='Вторник' task='Сделать проект до конца года'/>
                 <Block className={style.item} name='Вова' lastname='Кухаренко' subject='Введение в IT' day='Пятнца' task='Сделать тест на сайте'/>
                 <Block className={style.item} name='Влад' lastname='Ушаков' subject='Родная литература' day='Понедельник' task='План стихотворения Агашиной'/>
-                <Block className={style.item} name='Рома' lastname='Печерский' subject='Введение в IT' day='Пятнца' task='Сделать тест на сайте'/>
             </div>
             <div className={style.for_btn}>
                 <div className={style.add_task}>
